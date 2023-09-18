@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700,800');
+div {
+  position: relative;
+  z-index: 2;
+}
+.quote-mark{
+  position : absolute;
+  bottom: 80px;
+  left: 80px;
+}
+h1 {
+  text-align: center;
+  font-family: "Dosis" , sans-serif;
+  color: black;
+}
+h5{
+   text-align: center;
+  font-family: "Dosis" , sans-serif;
+  color:#C8E9E9;
+  word-wrap: break-word;
+ position: absolute;
+  left: 30px;
+  top: -150px;
+  font-size: 1.0em;
+  text-align: justify;
+  padding: 20px 50px 0px 50px;
+}
+p {
+  text-align: center;
+  font-family: "Dosis" , sans-serif;
+  color: #C8E9E9;
+  word-wrap: break-word;
+ position: absolute;
+  right: -15px;
+  bottom: -40px;
+}
+img {
+ 	width: 60%;
+  height: 200px;
+  padding-top: 0px;
+   border-style: solid;
+  border-color: #140340;
+  border-width: 5px;
+   position: absolute;
+   left : 85px;
+   top: 0px;
+ }
+body {
+  background-image: url( https://media.istockphoto.com/photos/space-background-colorful-fractal-nebula-with-planet-and-asteroid-picture-id1275820470?b=1&k=20&m=1275820470&s=170667a&w=0&h=fSIm5vwp7Lg8vikO2HeuJKHq48b7bBtBpqJ309YmRjg=);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ background-repeat: repeat-y;   background-size: cover;
+}
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  margin: 0% auto 15% 5%;
+  width: 600px;
+  padding: 130px 50px 280px 10px;
+  display: table;
+ background: var(--main-black-alpha);
+   box-shadow: 10px 10px 50px #C8E9E9;
+  .quote-text {
+    i {
+      font-size: 1em;
+      margin-right: 0.4em;
+    }
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+  }
+  .quote-author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+  }
+i {
+  background: rgba(2, 27, 74, 0.8);
+}
+ qq{
+    color: #470303;
+   font-weight: 1000;
+  }
+:root {--neon-color: rgba(52, 82, 111,0.8);   
+  --main-black: #1C202B;   
+  --gray: rgba(192,192,192,0.8);  
+  --purple: rgba(38, 8, 34, 0.8);
+  --deep-blue: rgba(2, 27, 74,0.8);
+  --box-shadow: 0px 0px 20px var(--deep-blue), inset 0px 0px 0px var(--deep-blue);
+  
+  --border-radius: 5px; }
+
+/* 12 */
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+
+}
+#tumblr{
+position: absolute;
+top: 290px;
+  left: -120px; 
+}
+#twitter{
+  position: absolute;
+  top: 290px;
+  left: -80px;
+}
+#quote-button {
+ position: absolute;
+  top: 386px;
+  right: 10px;
+      }
+  
+.button {
+  background: transparent;
+  border: 2px solid var(--neon-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 10px 20px;
+  color: var(--neon-color);
+  cursor: pointer;
+  margin: 5px 90px;
+  font-weight: 700;
+  transition: all 1000ms ease-in;
+  
+}
+.btn-12{
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+   background: var(--purple);
+  display: block;
+  position: absolute;
+  width: 37px;
+  height: 39px;
+  box-shadow:var(--box-shadow);
+  border-radius: 15px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+ .btn-12w{
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12w span {
+   background: var(--purple);
+  display: block;
+  position: absolute;
+  width: 37px;
+  height: 39px;
+  box-shadow:var(--box-shadow);
+  border-radius: 15px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12w span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12w span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12w:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12w:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+}
+#tumblr-quote, #tweet-quote {
+  display:inline-block;
+}
+  .bb{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+  }
+
+
+.btn-12n{
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12n span {
+   background: #34526f;
+  display: block;
+  position: absolute;
+  width: 197px;
+  height: 39px;
+  box-shadow:var(--box-shadow);
+  border-radius: 15px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12n span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12n span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12n:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12n:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+}
+
