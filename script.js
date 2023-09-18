@@ -77,7 +77,7 @@ var quotes =[
      { 
       text: "A truly rich man is one whose children run into his arms when his hands are empty.", 
       author: "Unknown",
-      img: "https://i.imgur.com/IstONkO.gif"
+      img: "https://avatarfiles.alphacoders.com/177/177778.jpg"
     },
      { 
       text: "I would rather die of passion than of boredom.", 
@@ -117,7 +117,7 @@ var quotes =[
     { 
       text: "You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.", 
       author: "Unknown",
-      img: "https://i.imgur.com/IstONkO.gif"
+      img: "https://avatarfiles.alphacoders.com/177/177778.jpg"
     },
     { 
       text: "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.", 
